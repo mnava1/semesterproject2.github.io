@@ -36,7 +36,29 @@ p {
   <input type="submit">
 </form>
   </center>
-
+  
+<select id="dropwdown1" name="dropdown" disabled="true">
+    form method="post" action="?">  
+        <option disabled selected="select">---Select Web---</option>
+        <option value="1">YouTube</option>
+        <option value="2">Google</option>
+        <option value="3">Facebook</option>
+</select>
+            
+<input type="submit" value="SELECT">
+</form>
+<?php
+switch ($_POST['dropdown'])  { 
+    case "1": 
+        echo "<script> location.href='https://www.youtube.com'</script>";
+        exit;
+}
+case "2": 
+    echo "<script> location.href='https://www.google.com'</script>";
+    exit;
+}
+case "3": 
+    echo "<script> location.href='https://www.facebook.com'</script>";
  <img src="dragons.jpg" style="width:180px;height:180px;"> 
 <p> In Japanese mythology, this legendary figure is considered a symbol of strength, wisdom and good luck. Considered divine creatures, popular belief identifies dragons as entities that can protect the nation by contributing to its prosperity. are diverse legendary creatures in Japanese mythology and folklore. Japanese dragon myths amalgamate native legends with imported stories about dragons from China, Korea and the Indian subcontinent. The style and appearance of the dragon was heavily influenced by the Chinese dragon, especially the three clawed long dragons which were introduced in Japan from China in ancient times. Like these other East Asian dragons, most Japanese ones are water deities or kami associated with rainfall and bodies of water, and are typically depicted as large, wingless, serpentine creatures with clawed feet.</p>
 
